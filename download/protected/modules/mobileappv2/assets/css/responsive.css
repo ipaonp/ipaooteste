@@ -1,0 +1,59 @@
+@media only screen and (max-width : 1024px) 
+{
+
+.header_wrap h3{
+border:0px solid red;
+}
+
+}
+
+@media only screen and (max-width : 970px) 
+{
+.header_wrap h3{
+border:0px solid green;
+}
+.sidebar_wrap{
+overflow: scroll;
+width: 80px;
+}
+
+.dataTables_wrapper.no-footer{
+overflow: scroll;
+}
+
+}
+
+
+@media only screen and (max-width : 750px) 
+{
+.header_wrap h3{
+border:0px solid yellow;
+font-size:22px;
+}
+
+}
+
+@media only screen and (max-width : 480px) 
+{
+
+html,body{
+font-size:13px;
+}
+
+.header_wrap h3{
+border:0px solid orange;
+font-size:15px;
+}
+.header_wrap{
+  height: 40px;
+}
+
+.content_wrap{
+margin-top:40px;
+}
+.top_nav{
+margin-right: 15px;
+margin-top: 5px;
+}
+
+}

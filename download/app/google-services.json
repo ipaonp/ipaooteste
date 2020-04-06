@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1063068352877",
+    "firebase_url": "https://argon-liberty-247421.firebaseio.com",
+    "project_id": "argon-liberty-247421",
+    "storage_bucket": "argon-liberty-247421.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1063068352877:android:2f2649aa23ee2439",
+        "android_client_info": {
+          "package_name": "com.bastisapp.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1063068352877-sio23f7n3v4jju1qimfs3jfv2d5n6ct8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC68FRCdq_NGFaCUg5M9eZCD8fAhAox16A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1063068352877-sio23f7n3v4jju1qimfs3jfv2d5n6ct8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

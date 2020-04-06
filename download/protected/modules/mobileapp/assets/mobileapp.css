@@ -1,0 +1,284 @@
+html,body{
+/*background:#101317;*/
+}
+
+#main-wrapper{
+margin-top:1%;
+width:1150px;
+}
+
+#chosen-field input[type="text"]{
+height:auto;
+}
+
+.merchant-selection-wrap{
+}
+
+.preloader{
+display:block;
+position:fixed;
+z-index:9999;
+top:0;
+right:0;
+height:64px;
+width:64px;
+border:1px solid #EEEEEE;
+background:url("../assets/images/Preloader_2.gif") no-repeat;
+}
+
+.menu ul li{
+list-style:none;
+}
+
+.menu{
+border-bottom:1px solid #ccc;
+}
+
+.menu ul,
+.menu ul li{
+padding:0;
+margin:0;
+}
+
+.menu ul li{
+display:inline-block;
+padding:10px;
+}
+
+.menu ul li a{
+color:#666;
+}
+
+.menu ul li.active a{
+color:#fff;
+background:#00B279;
+padding:3px;
+
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
+
+.pad10{
+padding:10px 15px;
+}
+.block{
+display:block;
+}
+
+.inlineblock{
+display:inline-block;
+}
+
+.pad5{
+padding:5px 10px;
+}
+
+#chosen-field input[type="text"]{
+height:auto;
+}
+
+.clear{
+clear:both;
+}
+
+.my-thumb,
+.thumb
+{
+max-width:80px;
+margin-left:10px;
+}
+
+.module-title{
+display:block;
+font-size:14px;
+color:#666;
+}
+
+.concat-text{
+width: 200px;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+display:block;
+}
+
+.send-a-push{
+font-size:20px;
+color:#00B279;
+text-align:center;
+display:block;
+}
+
+#translation-save-wrap{
+padding: 10px 20px;
+text-align: right;
+}
+
+.is-sticky #translation-save-wrap{
+background:#fff;
+width: 90%;
+z-index: 100;
+border-bottom:1px solid #ccc;
+}
+
+.tag{
+background:#33a17e ;
+color:#fff;
+}
+span.tag{
+display: inline-block;
+padding: 3px 8px;
+text-align: center;
+min-width: 90px;
+}
+span.tag.failed,
+span.tag.canceled,
+span.tag.cancelled,
+span.tag.declined,
+span.tag.draft,
+.tag.cancelled,
+tag.failed,
+.failed,
+.declined
+{
+background:#e53935;
+}
+.tag.unassigned,
+span.tag.pending
+ {
+background:#999;
+}
+.tag.assigned {
+/*background:#fc8344 ;*/
+background:#4c9ec0;
+}
+.tag.successful,
+span.tag.successful
+{
+background:#2c9f2c  ;
+}
+.tag.started {
+background:#ba68c8 ;
+}
+.tag.inprogress{
+background:#ec391c ;
+}
+.tag.sign{
+background:#f6bf00 ;
+}
+.tag.note{
+background:#3399FF;
+}
+.tag.photo{
+background:#658d78;
+}
+
+#table_list i.fa{
+font-size:18px;
+}
+
+.hide{
+display:none;
+}
+
+.top20{
+margin-top:20px;
+}
+
+.header_mobile{
+border:1px solidr red;
+background:#f75d34;
+min-height:120px;
+}
+.header_mobile img{
+max-width: 100px;
+margin:10px;
+}
+
+.mobile_body{
+text-align:center;
+padding-top:20px;
+}
+
+.mobile_body i.check{
+color:#00b279;
+font-size:100px;
+}
+.header_mobile h4{
+margin:0;
+padding:10px 10px 5px;
+color:#fff;
+text-align:center;
+}
+.mobile_body_pad{
+padding:10px;
+}
+
+.mobile_body_pad h4{
+padding-left:6px;
+}
+
+
+/** PRELOADER **/
+.main-preloader{
+position:fixed;
+top:0;
+z-index:999999;
+background:rgba(50, 50, 50, 0.85) none repeat scroll 0 0;
+width:100%;
+height:100%;
+display:none;
+}
+
+.main-preloader .inner{
+margin: 0;
+padding: 0;
+position: absolute;
+top: 20%;
+width: 100%;
+}
+
+.ploader {
+  margin: 60px auto;
+  font-size: 10px;
+  position: relative;
+  text-indent: -9999em;
+border-top: 1.1em solid rgba(247,93,52, 0.2);
+  border-right: 1.1em solid rgba(247,93,52, 0.2);
+  border-bottom: 1.1em solid rgba(247,93,52, 0.2);
+  border-left: 1.1em solid #f75d34;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation: load8 1.1s infinite linear;
+  animation: load8 1.1s infinite linear;
+}
+.ploader,
+.ploader:after {
+  border-radius: 50%;
+  width: 10em;
+  height: 10em;
+}
+@-webkit-keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes load8 {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+/**END preloader*/
